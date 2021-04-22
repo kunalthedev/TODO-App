@@ -62,10 +62,10 @@ class App extends Component{
              
             );
           })}
-          <div className="todoDis"><li>
+          {/* <div className="todoDis"><li>
               Record Vidos
               <button className="btn">Delete</button>
-            </li></div>
+            </li></div> */}
             
           </ul>
         </div>
