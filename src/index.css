@@ -1,8 +1,8 @@
 body{
-  background-color: aqua;
-  display: flex;
+  background-color: rgb(238, 236, 255) !important;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 li{
   list-style: none;
@@ -14,33 +14,34 @@ li{
   background-color: beige;
   padding: 5px;
   width: 100%;
+  height: 100%;
+  margin: 5px;
+  border-radius: 7px;
+
 }
 .btn{
   float: right !important;
 }
 .input-text{
-  width: 100%;
+  width: 50%;
+  padding: 6px;
+  margin: 5px;
+  border: 1px solid rgb(138, 132, 197);
+  border-radius: 6px;
 }
-.addBtn{
-  float: right;
-  margin-bottom: 10px;
-  margin-top: 5px;
-  padding: 10px;
-  background-color: aliceblue;
-  color: blue;
-  border: 1px solid blue;
-  border-radius: 4px;
-}
-.addBtn:hover{
-  background-color: blue;
-  color: aliceblue;
-  transition: 0.7s;
 
-}
-.btn{
+/* .btn{
   background-color: rgb(104, 235, 104);
   border: 1px solid rgb(104, 235, 104) ;
   border-radius: 3px;
   padding: 3px;
   color: antiquewhite;
+} */
+.addBtn{
+  margin: 5px;
+}
+.top, .appName, span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
